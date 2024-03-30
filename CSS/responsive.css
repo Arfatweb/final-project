@@ -1,0 +1,70 @@
+/* xxL */
+@media (min-width:1400px){}
+
+/* xL */
+@media (min-width:1200px) and (max-width:1399.98px){
+    #header .topHeader .topHeaderRight .socialIcon{
+        display: none !important;
+    }
+    #banner{
+        padding:10px 0 150px;
+    }
+  
+    #banner .bannerSlider .slide h2 { 
+        font-size: 54px;  
+    }
+    #banner .bannerSlider .slide p { 
+       width: 415px !important;
+    }
+    .InspiredText {
+        margin: 110px 0 80px 0;
+    }
+    #Inspired .imgOver .imgOver2{
+        margin-left: 60px !important;
+    }
+    #Inspired .imgOver .playBtn{
+        left: 50%; 
+    }
+    #service .serviceCard img {
+        padding: 10px 10px 10px 10px;
+    }
+}
+   
+
+/* Lg */
+@media (min-width:992px) and (max-width:1199.98px){
+    #header .topHeader .topHeaderRight .socialIcon{
+        display: none !important;
+    }
+    #banner .bannerSlider .slide{
+        height: 600px;
+    }
+    #banner .bannerSlider .slide h2 { 
+        font-size: 50px;  
+    }
+    #banner .bannerSlider .slide p { 
+        width: 390px !important;
+     }
+   .bannerDots{
+        bottom:110px;        
+    }
+    #bestSeller .product {
+        width: 100%!important;
+        height: 100%;
+        margin-top: 20px;
+    }
+    #galleryOne .img5{
+        width: 400px;
+        background-image: cover;
+    }
+   
+}
+
+/* md */
+@media (min-width:768px) and (max-width:991.98px){}
+
+/* sm */
+@media (min-width:576px) and (max-width:767.98px){}
+
+/* xs */
+@media (max-width:575.98px){}
